@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lycee Avenir</title>
+    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+        </script>
+        <script>
+        $(function(){
+          $("#header").load("include/header/header.html");
+          $("#footer").load("include/footer/footer.html");
+        });
+        </script>
+        <script type="text/javascript">
+function verif_formulaire()
+{
+ if(document.formulaire.nom.value == "")  {
+   alert("Veuillez entrer votre nom!");
+   document.formulaire.nom.focus();
+   return false;
+  }
+ if(document.formulaire.prenom.value == "") {
+   alert("Veuillez entrer votre prénom!");
+   document.formulaire.prenom.focus();
+   return false;
+  }
+ if(document.formulaire.ecole.value == "") {
+   alert("Veuillez entrer votre école");
+   document.formulaire.ecole.focus();
+   return false;
+  }
+ if(document.formulaire.fc.value.indexOf('@') == -1) {
+   alert("Veuillez entrer votre fonction dans l'école");
+   document.formulaire.fc.focus();
+   return false;
+  }
+ if(document.formulaire.email.value == "") {
+   alert("Veuillez entrer votre email de contact");
+   document.formulaire.email.focus();
+   return false;
+  }
+  if(document.formulaire.message.value == "") {
+   alert("Veuillez entrer votre message");
+   document.formulaire.message.focus();
+   return false;
+  }
+}
+
+</script>
+</head>
+
+<body>
+    <!-- ##### Preloader ##### -->
+    <div id="preloader">
+        <i class="circle-preloader"></i>
+    </div>
+
+    <!-- ##### Header zone debut ##### -->
+    <header class="header-area">
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 h-100">
+                        <div class="header-content h-100 d-flex align-items-center justify-content-between">
+                            <div class="academy-logo">
+                                <a href="index.html"><img src="img/LA/logo/LA.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="academy-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="academyNav">
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- menu -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Accueil</a></li>
+                                    <li><a href="informations.html">Informations</a></li>
+                                    <li><a href="galerie.html">Galerie</a></li>
+                                    <li><a href="concours.html">Concours</a></li>
+                                    <li><a href="formulaire.html">Formulaire</a></li>
+                                    <li><a href="Actu.html">A propos</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <!-- zone à droite vert ave text -->
+                        <div class="calling-info">
+                            <div class="call-center">
+                                <a href="#"><span>Lycée Avenir</span></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header zone de fin ##### -->
+
+
+    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
+        <div class="bradcumbContent">
+            <h2>Formulaire Exposants </h2>
+        </div>
+    </div>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="contact-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="contact-content">
+                        <div class="row">
+                            <!-- Contact Information -->
+                            <div class="col-12 col-lg-5">
+                                <div class="contact-information wow fadeInUp" data-wow-delay="400ms">
+                                    <div class="section-heading text-left">
+                                        <h3>Formulaire</h3>
+                                        <p class="mt-30"><strong>Cette inscription est réservé uniquement pour les futurs exposants. Merci de vous inscrire, un membre du lycée avenir vous répondera au plus vite.</strong></p>
+                                    </div>
+
+                                    <!-- Contact Social Info -->
+
+
+                                    <!-- Single Contact Info -->
+                                    <div class="single-contact-info d-flex">
+                                        <div class="contact-icon mr-15">
+                                            <i class="icon-placeholder"></i>
+                                        </div>
+                                        <p>230 Avenue Du Languedoc,
+                                        Nimes Cedex 2 30918</p>
+                                    </div>
+
+                                    <!-- Single Contact Info -->
+                                    <div class="single-contact-info d-flex">
+                                        <div class="contact-icon mr-15">
+                                            <i class="icon-telephone-1"></i>
+                                        </div>
+                                        <p>04 66 27 95 00</p>
+                                    </div>
+
+                                    <!-- Single Contact Info -->
+                                    <div class="single-contact-info d-flex">
+                                        <div class="contact-icon mr-15">
+                                            <i class="icon-contract"></i>
+                                        </div>
+                                        <p>cio.nimesouest@ac-montpellier.fr </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Contact Form Area -->
+                            <div class="col-12 col-lg-7">
+                                <div class="contact-form-area wow fadeInUp" data-wow-delay="500ms">
+                                    <form action="#" method="post">
+                                        <input type="text" class="form-control" nom="nom" placeholder="Nom">
+                                        <input type="text" class="form-control" prenom="prenom" placeholder="Prénom">
+                                        <input type="text" class="form-control" ecole="ecole" placeholder="École">
+                                        <input type="text" class="form-control" fc="fc" placeholder="Fonction dans votre Etablissement">
+                                        <input type="email" class="form-control" email="email" placeholder="E-mail">
+                                        <textarea name="message" class="form-control" message="message" cols="30" rows="10" placeholder="Vos souhaits pour le Salon"></textarea>
+                                        <button class="btn academy-btn mt-30" type="submit" value="Envoyer">Envoyer ma demande</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact zone fin ##### -->
+
+    <!-- ##### Footer zone début ##### -->
+    <footer class="footer-area">
+        <div class="main-footer-area section-padding-100-0">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Logo -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <a href="index.html"><img src="img/LA/logo/logof.png" alt=""></a>
+                            </div>
+                            <p>Mon Text..3</p>
+                        </div>
+                    </div>
+                    <!-- Footer Liens Utililes -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Lien utiles</h6>
+                            </div>
+                            <nav>
+                                <ul class="useful-links">
+                                    <li><a href="informations.html">Informations</a></li>
+                                    <li><a href="galerie.html">Galerie</a></li>
+                                    <li><a href="formulaire.html">Formulaire Exposants</a></li>
+                                    <li><a href="concours.html">Concours Affiche</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Partie Pénal -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>A Propos</h6>
+                            </div>
+                            <nav>
+                                <ul class="useful-links">
+                                    <li><a href="Actu.html">A Propos</a></li>
+                                    <li><a href="CGU1.html">CGU</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Footer Contact adresses . . . -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Contact</h6>
+                            </div>
+                            <div class="single-contact d-flex mb-30">
+                                <i class="icon-placeholder"></i>
+                                <p>230 Avenue Du Languedoc,
+                                Nimes Cedex 2 30918</p>
+                            </div>
+                            <div class="single-contact d-flex mb-30">
+                                <i class="icon-telephone-1"></i>
+                                <p>04 66 27 95 00</p>
+                            </div>
+                            <div class="single-contact d-flex">
+                                <i class="icon-contract"></i>
+                                <p>cio.nimesouest@ac-montpellier.fr </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p><!-- Copiright -->
+Copyright &copy; Site Web crée par les étudiants <a href="https://www.intechinfo.fr/"><strong>In'tech</strong></a>
+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <!-- Google Maps -->
+
+</body>
+
+</html>
